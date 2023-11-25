@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Arsenal:wght@400;700&family=Croissant+One&family=Inclusive+Sans&family=Inconsolata:wght@200;500;700;800;900&family=Josefin+Sans:wght@300;400;500;600;700&family=Marcellus&family=Mooli&family=Open+Sans:wght@300&family=Poppins:wght@100;300;400;500;600&family=Roboto:wght@400;500;700;900&family=Work+Sans:wght@300;500;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+    position: relative;
+    font-family: "ABeeZee", sans-serif;
+    font-family: "Arsenal", sans-serif;
+    font-family: "Croissant One", serif;
+    font-family: "Inclusive Sans", sans-serif;
+    font-family: "Inconsolata", monospace;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Marcellus", serif;
+    font-family: "Mooli", sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Roboto", sans-serif;
+    font-family: "Work Sans", sans-serif; */
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    font-size: 62.5%;
+}
